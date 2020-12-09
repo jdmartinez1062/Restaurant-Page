@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Js project Restaurant Page",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmartinez1062/Restaurant-Page.git"
+  },
+  "author": "Juan David Martínez Cubillos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdmartinez1062/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/jdmartinez1062/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
