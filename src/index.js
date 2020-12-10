@@ -1,1 +1,2 @@
-console.log("test");
+import home from './homed.js'
+

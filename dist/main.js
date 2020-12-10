@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";!function(){const e=document.createElement("div");e.id=`container-${array[i].id}`;const t=document.createElement("p"),n=document.createElement("p"),d=document.createElement("p"),c=document.createElement("button"),a=document.createElement("button"),p=document.createElement("p");e.appendChild(t),ontainer.appendChild(t),e.appendChild(n),e.appendChild(d),e.appendChild(p),e.appendChild(a),e.appendChild(c),document.getElementById(content)}()})();
