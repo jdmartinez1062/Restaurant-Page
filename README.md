@@ -50,7 +50,7 @@
 
 Project: Restaurant Page. [Assignment link](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
-Visit the finished project website: https://raw.githack.com/jdmartinez1062/Restaurant-Page/feature/Restaurant-Page/index.html
+Visit the finished project website: https://rawcdn.githack.com/jdmartinez1062/Restaurant-Page/feature/restaurant/dist/index.html
 <div style="text-align:center">
   <a href="https://raw.githack.com/jdmartinez1062/Restaurant-Page/feature/Restaurant-Page/index.html">
       <img src="../Restaurant-Page/app.jpg" width="100%">
