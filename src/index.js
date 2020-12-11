@@ -6,22 +6,34 @@ import contact from './contact.js'
 
 
 window.onload = function () {
-    tabCreation();
-    const tabs = document.getElementsByTagName('a');
+    const content = document.getElementById("content")
 
-    for (let i = 0; i < tabs.length; i += 1) {
-        tabs[i].addEventListener('click',)
-        info[i] = link.appendChild(info[i]);
-    }
+    content.appendChild(tabCreation());
+
+    const homeTab = document.getElementById("home");
+    const aboutTab = document.getElementById("about");
+    const contactTab = document.getElementById("contact");
 
 
+    homeTab.addEventListener('click', (e) => {
+        deletePreviousContent(content);
+        content.appendChild(home());
+    })
+    aboutTab.addEventListener('click', (e) => {
+        deletePreviousContent(content);
+        content.appendChild(about());
+    })
+    contactTab.addEventListener('click', (e) => {
+        deletePreviousContent(content);
+        content.appendChild(contact());
+    })
 };
 
 
 const deletePreviousContent = (parent) => {
-    while (parent.firstChild) {
-
-        parent.removeChild(parent.firstChild);
+    while (parent.lastChild && parent.children.length > 1) {
+        console.log(parent.lastChild)
+        parent.removeChild(parent.lastChild);
     }
 }
 
