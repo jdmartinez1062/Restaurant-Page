@@ -1,4 +1,4 @@
-export default function contact() {
+const contact = () => {
   const container = document.createElement('div');
   const wrapper = document.createElement('div');
   const title = document.createElement('h1');
@@ -15,4 +15,6 @@ export default function contact() {
   wrapper.append(name, email, phone);
 
   return container;
-}
+};
+
+export default contact;

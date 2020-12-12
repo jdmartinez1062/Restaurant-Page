@@ -1,4 +1,4 @@
-export default function about() {
+const about = () => {
   const container = document.createElement('div');
   const title = document.createElement('h1');
   const description = document.createElement('p');
@@ -11,4 +11,6 @@ export default function about() {
   container.appendChild(description);
 
   return container;
-}
+};
+
+export default about;

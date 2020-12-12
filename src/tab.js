@@ -1,4 +1,4 @@
-export default function tabCreation() {
+const tabCreation = () => {
   const navigation = document.createElement('nav');
   const tabList = document.createElement('ul');
   const home = document.createElement('a');
@@ -23,4 +23,6 @@ export default function tabCreation() {
   navigation.appendChild(tabList);
 
   return navigation;
-}
+};
+
+export default tabCreation;
