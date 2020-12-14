@@ -20,14 +20,14 @@ window.onload = () => {
 
   homeTab.addEventListener('click', () => {
     deletePreviousContent(content);
-    content.appendChild(home());
+    home();
   });
   aboutTab.addEventListener('click', () => {
     deletePreviousContent(content);
-    content.appendChild(about());
+    about();
   });
   contactTab.addEventListener('click', () => {
     deletePreviousContent(content);
-    content.appendChild(contact());
+    contact();
   });
 };

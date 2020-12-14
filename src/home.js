@@ -1,4 +1,5 @@
 const home = () => {
+  const content = document.getElementById('content');
   const container = document.createElement('div');
   const title = document.createElement('h1');
   const description = document.createElement('p');
@@ -10,7 +11,7 @@ const home = () => {
   container.appendChild(title);
   container.appendChild(description);
 
-  return container;
+  content.appendChild(container);
 };
 
 export default home;

@@ -1,4 +1,5 @@
 const contact = () => {
+  const content = document.getElementById('content');
   const container = document.createElement('div');
   const wrapper = document.createElement('div');
   const title = document.createElement('h1');
@@ -14,7 +15,7 @@ const contact = () => {
   container.append(title, wrapper);
   wrapper.append(name, email, phone);
 
-  return container;
+  content.appendChild(container);
 };
 
 export default contact;
